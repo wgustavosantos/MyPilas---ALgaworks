@@ -73,3 +73,11 @@ article footer {
     display: block;
     clear: both;
 }
+
+.botao {
+    display: inline-block;
+    background-color: #127d00;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 16px ;
+}
