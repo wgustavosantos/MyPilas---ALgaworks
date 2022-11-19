@@ -81,3 +81,7 @@ article footer {
     text-decoration: none;
     padding: 12px 16px ;
 }
+
+.botao:hover, .botao:focus {
+    background-color: #0e6400;
+}
