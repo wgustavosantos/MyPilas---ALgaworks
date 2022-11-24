@@ -18,7 +18,7 @@ header img {
 }
 
 .container {
-    width: 1200px;
+    width: 100%;
     background-color: azure;
     margin: 0 auto;
     padding-left: 12px;
@@ -27,10 +27,10 @@ header img {
 
 article {
     border: 1px solid #95a4a5;
-    width: 370px;
+    width: 30%;
     padding: 10px;
     float: left;
-    margin-right: 30px;
+    margin-right: 5%;
 }
 
 article h2 {
