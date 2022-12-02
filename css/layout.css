@@ -1,6 +1,6 @@
 .layout-cabecalho {
-    
     height: 60px;
+    background-color: #fff;
     border-bottom: 1px solid #ccc;
 }
 
@@ -14,7 +14,7 @@
 
 .layout-chamada {
     padding: 80px 0;
-
+    margin-top: 60px; /* Para o cabeçalho */
     background-color: #7ab55c  ;
 }
 .layout-depoimento {
@@ -28,4 +28,13 @@
 
     color: #fff;
     text-align: center;
+}
+
+.layout-cabecalho--home {
+
+    position:fixed;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    z-index: 1; /*Para sobrepor*/
 }
