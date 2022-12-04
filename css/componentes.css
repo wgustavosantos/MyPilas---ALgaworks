@@ -191,3 +191,37 @@
         font-size: 1.75rem; /* 28px */
     }
 }
+
+/*-----------------*\
+    NAVEGACAO - Bloco
+/*-----------------*/
+
+.navegacao {
+
+}
+
+.navegacao__menu {
+    float: right;
+}
+
+/*-----------------*\
+    BOTAO-CHAVEADOR - Bloco
+/*-----------------*/
+
+.botao-chaveador {
+    width: 24px;
+    height: 24px;
+    border: 0;
+
+    background: none;
+    background-image: url("../imagens/bars.png");
+
+    outline: none ;
+    cursor: pointer;
+}
+
+@media(min-width: 992px){
+    .botao-chaveador {
+        display: none;
+    }
+}
