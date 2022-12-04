@@ -12,11 +12,19 @@
     padding: 80px 0;
 }
 
+@media(max-width: 575px) {
+    .layout-planos .row>div:not(.ultimo-plano) {
+        margin-bottom: 40px;
+    }
+}
+
 .layout-chamada {
     padding: 80px 0;
-    margin-top: 60px; /* Para o cabeçalho */
-    background-color: #7ab55c  ;
+    margin-top: 60px;
+    /* Para o cabeçalho */
+    background-color: #7ab55c;
 }
+
 .layout-depoimento {
     padding: 80px 0;
     background-color: #e7e7e7;
@@ -32,9 +40,10 @@
 
 .layout-cabecalho--home {
 
-    position:fixed;
+    position: fixed;
     right: 0px;
     left: 0px;
     top: 0px;
-    z-index: 1; /*Para sobrepor*/
+    z-index: 1;
+    /*Para sobrepor*/
 }
