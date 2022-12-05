@@ -232,6 +232,16 @@
 /*-----------------*/
 
 .menu {
+    margin: 0;
+
+    font-size: 0.875rem;
+
+    list-style: none;
+}
+
+/*até 991 é true  */
+@media(max-width: 991px){
+    .menu {
     position: fixed;
     top: 0;
     left: 0;
@@ -247,17 +257,33 @@
     text-decoration: none;
     font-size: 0.875rem;
 }
-
-.menu__item {
-    display: block;
-    line-height: 3;
+    .menu__item {
+        display: block;
+        line-height: 3;
+    }
+    
+    .menu__item--botao {
+        margin-top: 20px;
+    
+    }
+    
 }
 
-.menu__item--botao {
-    margin-top: 20px;
-
-}
 
 .menu > li a {
     text-decoration: none;
+}
+@media(min-width: 992px){
+
+    .menu__item {
+        display: inline-block;
+        padding-right: 20px;
+    }
+
+    .menu__item--botao {
+        padding-right: 0;
+    }
+    /* .menu__item:last-of-type {
+        padding-right: 0;
+    } */
 }
