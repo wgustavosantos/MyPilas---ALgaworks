@@ -251,6 +251,7 @@
     margin: 0;
     border-right: 1px solid #eee;
     padding: 20px;
+    display: none;
 
     background-color: #fbfbfb;
     list-style: none;
@@ -286,4 +287,8 @@
     /* .menu__item:last-of-type {
         padding-right: 0;
     } */
+}
+
+.menu--exibindo {
+    display: block;
 }
