@@ -330,4 +330,13 @@
 .campo {
     display: block;
     width: 100%;
+    height: 1.8em;
+
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    background-color: #fff;
+
+    font-size: 1.4rem;
 }
